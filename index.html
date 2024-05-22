@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TranscibeVision</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <section class="image-generator">
+    <div class="content">
+      <h1>IMAGE GENIUS</h1>
+      <p>Turn your thoughts into reality...</p>
+      <form action="#" class="generate-form">
+        <input class="prompt-input" type="text" placeholder="Describe your thoughts" required>
+
+        <div class="controls">
+
+          <select class="img-quantity">
+            <option value="1">1 Image</option>
+            <option value="2" selected>2 Images</option>
+            <option value="3">3 Images</option>
+            <option value="4">4 Images</option>
+          </select>
+
+          <button id="mic-btn">Speak</button>
+          <button id="stop-btn">Stop</button>
+          <button type="submit" class="generate-btn">Generate</button>
+          
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="image-gallery">
+      <div class="img-card"><img src="images/img-1.jpg" alt="image"></div>
+      <div class="img-card"><img src="images/img-2.jpg" alt="image"></div>
+      <div class="img-card"><img src="images/img-3.jpg" alt="image"></div>
+      <div class="img-card"><img src="images/img-4.jpg" alt="image"></div>
+  </section>
+  
+</body>
+</html>
